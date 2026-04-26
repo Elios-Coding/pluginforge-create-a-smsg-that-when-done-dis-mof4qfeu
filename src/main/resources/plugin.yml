@@ -1,0 +1,13 @@
+name: SimpleMessagePlugin
+version: '1.0.0'
+main: com.pluginforge.generated.SimpleMessagePlugin
+api-version: 1.21
+commands:
+  smsg:
+    description: Sends a simple message.
+    usage: /<command>
+    permission: simplemessageplugin.smsg
+permissions:
+  simplemessageplugin.smsg:
+    description: Allows sending the simple message.
+    default: op
